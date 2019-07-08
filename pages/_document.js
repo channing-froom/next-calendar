@@ -10,6 +10,8 @@ class MyDocument extends Document {
         return (
             <Html>
             <Head />
+            <link rel="shortcut icon" href="/static/favicon.ico" />
+            <link rel="manifest" href="/static/manifest.json" />
             <body style={this.bodyStyle}>
                 <Main />
                 <NextScript />

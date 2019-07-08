@@ -26,7 +26,8 @@
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js",
+    "start": "next start -p $PORT",
+    "startbk": "NODE_ENV=production node server.js",
     "now-build": "next build"
   },
   "eslintConfig": {
