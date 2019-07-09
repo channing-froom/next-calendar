@@ -17,7 +17,7 @@ class MyDocument extends Document {
                 <NextScript />
             </body>
 
-            <style global jsx>
+            <style>
                 {`
                 html {
                     height: 100%;
