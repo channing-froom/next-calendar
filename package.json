@@ -23,6 +23,7 @@
     "dev": "node server.js",
     "build": "next build",
     "start": "next start",
-    "start-server": "NODE_ENV=production node server.js"
+    "start-server": "NODE_ENV=production node server.js",
+    "now-build": "next build"
   }
 }
