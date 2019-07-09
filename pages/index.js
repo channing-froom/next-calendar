@@ -1,4 +1,4 @@
-import { Container, Grid, Paper, Typography, Divider } from "@material-ui/core";
+import { Container, Grid, Typography } from "@material-ui/core";
 import PaperContainerComponent from "../components/PaperContainer/PaperContainerComponent";
 import DividerComponent from "../components/Global/DividerComponent";
 import SearchFormComponent from "../components/Search/SearchFormComponent";

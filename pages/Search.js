@@ -1,5 +1,4 @@
 import { Component } from "react";
-import { useRouter } from 'next/router';
 import Head from 'next/head';
 import { Container, Typography } from "@material-ui/core";
 import ContentComponent from "../components/Global/ContentComponent";
@@ -7,13 +6,8 @@ import SearchStatsComponent from "../components/Search/SearchStatsComponent";
 import SearchListComponent from "../components/Search/SearchListComponent";
 import Grid from '@material-ui/core/Grid';
 import PaperContainerComponent from "../components/PaperContainer/PaperContainerComponent";
-import DividerComponent from "../components/Global/DividerComponent";
 import SearchFormComponent from "../components/Search/SearchFormComponent";
 import SearchService from "../lib/services/SearchService";
-import { ContactsOutlined } from "@material-ui/icons";
-import { thisTypeAnnotation } from "@babel/types";
-
-
 
 export default class Search extends Component {
 

@@ -2,6 +2,7 @@ const express = require('express');
 const next = require('next');
 
 const dev = process.env.NODE_ENV !== 'production';
+console.log('env', dev);
 const app = next({ dev });
 const handle = app.getRequestHandler();
 
@@ -10,14 +11,24 @@ app
   .then(() => {
     const server = express();
 
-    // TODO set up proper api server
-    server.get('/test/test', (req, res) => {
-        res.json({a: 1});
+    // TODO set up file for routing
+    server.get('/search', (req, res) => {
+      return app.render(
+        req,
+        res,
+        '/search',
+        {
+          start: req.query.start, end: req.query.end
+        }
+      );
     });
 
-    // TODO set up next routing
-    server.get('/search', (req, res) => {
-      return app.render(req, res, '/search', { start: req.query.start, end: req.query.end });
+    server.get('/api/test', (req, res) => {
+      res.json(
+        {
+          success: true
+        }
+      );
     });
 
     // Next.js default handling
