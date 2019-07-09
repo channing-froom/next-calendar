@@ -3,27 +3,27 @@
   "pages": {
     "/": [
       "static/runtime/webpack-a79426b5e11f0ba5879d.js",
-      "static/chunks/commons.d51df812dfb7263f1a91.js",
+      "static/chunks/commons.2f5d42d9d96cdeda7c7d.js",
       "static/runtime/main-541f01c65744a5c2c60b.js"
     ],
     "/_app": [
       "static/runtime/webpack-a79426b5e11f0ba5879d.js",
-      "static/chunks/commons.d51df812dfb7263f1a91.js",
+      "static/chunks/commons.2f5d42d9d96cdeda7c7d.js",
       "static/runtime/main-541f01c65744a5c2c60b.js"
     ],
     "/_error": [
       "static/runtime/webpack-a79426b5e11f0ba5879d.js",
-      "static/chunks/commons.d51df812dfb7263f1a91.js",
+      "static/chunks/commons.2f5d42d9d96cdeda7c7d.js",
       "static/runtime/main-541f01c65744a5c2c60b.js"
     ],
     "/index": [
       "static/runtime/webpack-a79426b5e11f0ba5879d.js",
-      "static/chunks/commons.d51df812dfb7263f1a91.js",
+      "static/chunks/commons.2f5d42d9d96cdeda7c7d.js",
       "static/runtime/main-541f01c65744a5c2c60b.js"
     ],
     "/search": [
       "static/runtime/webpack-a79426b5e11f0ba5879d.js",
-      "static/chunks/commons.d51df812dfb7263f1a91.js",
+      "static/chunks/commons.2f5d42d9d96cdeda7c7d.js",
       "static/runtime/main-541f01c65744a5c2c60b.js"
     ]
   }

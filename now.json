@@ -1,4 +1,9 @@
 {
     "version": 2,
-    "builds": [{ "src": "package.json", "use": "@now/next" }]
+    "routes": [
+        { "src": "/", "dest": "/index" }
+    ],
+    "builds": [
+        { "src": "package.json", "use": "@now/next" }
+    ]
 }

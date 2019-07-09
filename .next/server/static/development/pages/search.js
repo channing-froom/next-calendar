@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -568,7 +568,6 @@ function () {
   }, {
     key: "Go",
     value: function Go(startDate, endDate) {
-      console.log('pushing to search');
       next_router__WEBPACK_IMPORTED_MODULE_4___default.a.push({
         pathname: '/search',
         query: {
@@ -599,6 +598,7 @@ function () {
     key: "GetApiUrlForDate",
     value: function GetApiUrlForDate(date) {
       var value = date.toISOString().slice(5, 10).replace('-', '/');
+      var url =  true ? "http://numbersapi.com" : undefined;
       return "http://numbersapi.com/".concat(value, "/date");
     }
   }, {
@@ -780,6 +780,7 @@ function () {
           while (1) {
             switch (_context3.prev = _context3.next) {
               case 0:
+                console.log("running search on ".concat("development"));
                 days = [];
                 years = [];
                 mondays = 0;
@@ -815,10 +816,10 @@ function () {
                 _context3.t0 = days.length;
                 _context3.t1 = mondays;
                 _context3.t2 = this.HasLeapYear(years);
-                _context3.next = 16;
+                _context3.next = 17;
                 return this.CollectNotes(days);
 
-              case 16:
+              case 17:
                 _context3.t3 = _context3.sent;
                 return _context3.abrupt("return", {
                   daysApart: _context3.t0,
@@ -827,7 +828,7 @@ function () {
                   notes: _context3.t3
                 });
 
-              case 18:
+              case 19:
               case "end":
                 return _context3.stop();
             }
@@ -2415,7 +2416,7 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!*******************************!*\
   !*** multi ./pages/search.js ***!
   \*******************************/
