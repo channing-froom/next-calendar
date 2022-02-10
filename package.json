@@ -13,7 +13,7 @@
     "express": "^4.16.4",
     "isomorphic-fetch": "^2.2.1",
     "next": "^8.0.3",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-markdown": "^4.0.6",
